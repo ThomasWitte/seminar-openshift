@@ -3,26 +3,38 @@
 
 \usepackage{graphicx}
 \usepackage[cmex10]{amsmath}
+% TODO: Deutsche oder Englische Sprache wählen
 \usepackage[ngerman]{babel} % Deutsche Ausarbeitung
 % \usepackage[USenglish]{babel} % Englische Ausarbeitung
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage[utf8]{inputenc}
+\usepackage{ccicons}
 
 \begin{document}
 
+% TODO: Titel, Autor und E-Mail Adresse anpassen
 \title{Titel}
-
 \author{%
 \IEEEauthorblockN{Stefan Dietzel}\\
 \IEEEauthorblockA{\url{stefan.dietzel@uni-ulm.de}}%
 }
 
-\IEEEpubid{\sf%
-Titel des Seminars, WS/SS XXXX,
-Institut für Verteilte Systeme, Universität Ulm}
+% TODO: Bitte hier Titel des Seminnars und Semester anpassen
+\markboth{Titel des Seminars, WS/SS 20XX, Institut für Verteilte Systeme, Universität Ulm}{}
+% English: \markboth{Seminar title, WS/SS 20XX, Institut of Distributed Systems, University of Ulm}{}
 
-% make the title area
+% TODO: Creative Commons Lizenz: bitte auskommentieren, falls nicht gewünscht
+\IEEEpubid{\sf%
+\ccbysa
+\quad
+Diese Arbeit ist lizensiert unter einer Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz.}
+% English:
+% \IEEEpubid{\sf%
+% \ccbysa
+% \quad
+% This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Germany License.}
+
 \maketitle
 
 \begin{abstract}
@@ -30,6 +42,8 @@ Eine kurze Zusammenfassung. Lorem ipsum dolor sit amet, consectetur adipisicing 
 \end{abstract}
 
 \section{Introduction}
+
+% TODO: \IEEEPARstart wird nur am Anfang des ersten Absatzes im Paper verwendet, *nicht* am Anfang jeder Section.
 \IEEEPARstart{I}n den vergangenen Jahren \dots Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim~\cite{test} id est laborum.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
