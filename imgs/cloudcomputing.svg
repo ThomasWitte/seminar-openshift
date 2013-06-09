@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="486.21875"
+   height="618.31146"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="cloudcomputing.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70503497"
+     inkscape:cx="221.54156"
+     inkscape:cy="434.05577"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1032"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-109.34375,-159.90732)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.9643507;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3962"
+       width="485.24692"
+       height="417.23886"
+       x="109.84134"
+       y="360.49323" />
+    <g
+       id="g3964"
+       transform="translate(0,-4.2505092)">
+      <g
+         transform="translate(56.237434,300.80483)"
+         id="g3880">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="rect2985"
+           width="381.88083"
+           height="104.61726"
+           x="77.822159"
+           y="90.445908" />
+        <text
+           xml:space="preserve"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:UnDotum;-inkscape-font-specification:UnDotum"
+           x="268.72156"
+           y="125.09859"
+           id="text3780"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3782"
+             x="268.72156"
+             y="125.09859"
+             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">Software as a Service</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="269.00085"
+           y="159.10263"
+           id="text3784"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3786"
+             x="269.00085"
+             y="159.10263">Webmail, Dokumentspeicher, Onlinespiele</tspan><tspan
+             sodipodi:role="line"
+             x="269.00085"
+             y="179.10263"
+             id="tspan3788">Dokumentbearbeitung, Synchronisation</tspan></text>
+      </g>
+      <g
+         transform="translate(55.583511,269.08956)"
+         id="g3894">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="rect2985-3"
+           width="381.88083"
+           height="104.61726"
+           x="78.476082"
+           y="251.96501" />
+        <text
+           xml:space="preserve"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:UnDotum;-inkscape-font-specification:UnDotum"
+           x="268.92432"
+           y="286.61771"
+           id="text3780-5"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3782-1"
+             x="268.92432"
+             y="286.61771"
+             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">Platform as a Service</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="269.87354"
+           y="320.62173"
+           id="text3784-6"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="269.87354"
+             y="320.62173"
+             id="tspan3788-8">CMS, Application Server,</tspan><tspan
+             id="tspan3836"
+             sodipodi:role="line"
+             x="269.87354"
+             y="340.62173">Webserver, Ausführungsumgebungen</tspan></text>
+      </g>
+      <g
+         transform="translate(52.967812,227.56539)"
+         id="g3908">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="rect2985-3-9"
+           width="381.88083"
+           height="104.61726"
+           x="81.091782"
+           y="423.293" />
+        <text
+           xml:space="preserve"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:UnDotum;-inkscape-font-specification:UnDotum"
+           x="271.31442"
+           y="457.94568"
+           id="text3780-5-1"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3782-1-4"
+             x="271.31442"
+             y="457.94568"
+             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">Infrastructure as a Service</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="272.48923"
+           y="491.94971"
+           id="text3784-6-4"
+           sodipodi:linespacing="125%"><tspan
+             id="tspan3836-7"
+             sodipodi:role="line"
+             x="272.48923"
+             y="491.94971">virtuelle Maschinen, load balancing,</tspan><tspan
+             id="tspan3918"
+             sodipodi:role="line"
+             x="272.48923"
+             y="511.94971">DNS Dienste, Speicher, Backups, Datenbank</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3880-2"
+       transform="translate(56.237434,69.969815)">
+      <rect
+         y="90.445908"
+         x="77.822159"
+         height="104.61726"
+         width="381.88083"
+         id="rect2985-2"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3780-6"
+         y="125.09859"
+         x="268.72156"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:UnDotum;-inkscape-font-specification:UnDotum"
+         xml:space="preserve"><tspan
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+           y="125.09859"
+           x="268.72156"
+           id="tspan3782-8"
+           sodipodi:role="line">Clients</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3784-9"
+         y="159.10263"
+         x="269.00085"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           id="tspan3788-3"
+           y="159.10263"
+           x="269.00085"
+           sodipodi:role="line">Webbrowser, Mobile Geräte, „Apps“, …</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="462.35977"
+       y="-544.12189"
+       id="text3987"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3989"
+         x="462.35977"
+         y="-544.12189"
+         style="font-size:28px;writing-mode:lr-tb">Cloud Computing</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.90065247;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 326.29611,267.27069 -11.18107,15.65633 -11.18107,15.65633 11.83878,0 0,27.87283 -11.83878,0 11.18107,15.65634 11.18107,15.65632 11.2124,-15.65632 11.18107,-15.65634 -11.83878,0 0,-27.87283 11.83878,0 -11.18107,-15.65633 -11.2124,-15.65633 z"
+       id="path3991"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
