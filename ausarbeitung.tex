@@ -68,7 +68,7 @@ PaaS-Dienste wie OpenShift empfehlen sich gerade für kleinere Firmen und Intern
 In Abschnitt~\ref{sec:related} werden zu OpenShift ähnliche, konkurrierende Dienste aufgelistet. Es folgt ein Blick auf die Funktionen von OpenShift in Abschnitt~\ref{sec:user} sowie auf einige OpenShift Interna in Abschnitt~\ref{sec:tech}. Eine kurze Zusammenfassung liefert schließlich Abschnitt~\ref{sec:sum}.
 
 \subsection{Geschichte von OpenShift}
-Im November 2010 übernahm RedHat den kalifornischen Cloudspezialisten Makara. Dessen Deployment- und Managementlösungen wurden in Verbindung mit RedHat eigenen Technologien zur Plattform OpenShift vorangetrieben \cite{openshift_primer}. Nach der offiziellen Ankündigung im Mai 2011 wurden kostenlose Zugänge zur Developer Preview angeboten; seit November 2012 existiert die finale, auf OpenShift Origin beruhende Version \cite{os_enterprise}.
+Im November 2010 übernahm RedHat den kalifornischen Cloudspezialisten Makara. Dessen Deployment- und Managementlösungen wurden in Verbindung mit RedHat eigenen Technologien zur Plattform OpenShift vorangetrieben \cite{openshift_primer}. Nach der offiziellen Ankündigung im Mai 2011 wurden kostenlose Zugänge zur Developer Preview angeboten; ab November 2012 konnte auch das auf OpenShift Origin beruhende OpenShift Enterprise getestet werden; im Juni 2013 wurde schließlich die Testphase verlassen\cite{os_enterprise}.
 
 OpenShift war und ist dabei immer wieder größeren Änderungen unterzogen: so wurde die ursprüngliche Dreiteilung in OpenShift Express, OpenShift Flex und OpenShift Power aufgegeben und es werden mittlerweile nur noch OpenShift Online zur privaten und kommerziellen Nutzung in der RedHat Cloud sowie OpenShift Enterprise zur Nutzung der OpenShift Technologie in eigenen Rechenzentren durch RedHat angeboten \cite{cloud_kueche}.
 
@@ -99,7 +99,7 @@ Durch Lastverteilung und höhere Auslastung der Server kann zudem Energie gespar
 
 Aus diesem Grund gehen die folgenden Abschnitte auf mögliche Plattform/Sprachkombinationen, nötige Schritte zur Vorbereitung der eigenen Anwendung für OpenShift sowie deren Deployment ein. 
 
-\subsection{Mögliche Plattformen/Cartridges}
+\subsection{Cartridges}
 Eine Anwendung in OpenShift beinhaltet neben dem Code des Nutzers ein oder mehrere vorkonfigurierte Softwarepakete, sogenannte Cartridges. Hierbei stehen einige, hier näher vorgestellte, Cartridges als Teil von OpenShift Origin immer zur Verfügung; speziellere Plattformen oder Software können entweder in Form von Community-Cartridges, oder selbst durch „Do It Yourself“-Cartridges bereitgestellt werden \cite{os_cartridge}.
 
 Die offiziell bereitgestellten Cartridges lassen sich in zwei Kategorien einteilen:
@@ -167,7 +167,7 @@ Möglicherweise notwendige Konfigurationsänderungen der Cartridges beziehungswe
 %Umgebungsvariablen zum Datenbankzugang, allgemeine Verzeichnisstruktur
 %persistenter Speicher
 
-\subsection{Deployment}
+\subsection{Deployment von Anwendungen}
 Das Deployment, also das Kopieren und Starten der Anwendung auf dem Server, erfolgt unter OpenShift mittels git \cite{git}. Dies vereinfacht die Integration in den Workflow der Entwicklung, ermöglicht eine Versionierung und Versionsverwaltung der ausgelieferten Anwendung und erspart die Einarbeitung in spezielle Deploymentwerkzeuge.
 
 Beim Erstellen einer Anwendung wird automatisch ein git-Repository gleichen Namens angelegt und das git-Verzeichnis innerhalb des Gears in dem die Anwendung läuft als remote hinzugefügt. Die deployte Anwendung wird aus diesem git-Verzeichnis immer dann gepullt wenn ein push in das remote-Repository erfolgt. Abbildung~\ref{fig:deployment} zeigt diesen Ablauf schematisch.
@@ -219,7 +219,7 @@ Anwendungen lassen sich in zwei Richtungen skalieren: es können sowohl einzelne
 
 Eine weitere Limitierung besteht darin, dass OpenShift nur Verbindungen an Port 80 (HTTP), 443 (HTTPS) und 22 (SSH) akzeptiert. Zusätzlich werden nur HTTP/HTTPS durch den vorgeschalteten HTTP-Proxy weitergeleitet. Eine Nutzung anderer Protokolle ist deshalb nur durch Tunneling möglich.
 
-\section{Technische Grundlagen}
+\section{Ausgewählte Aspekte technischer Details}
 \label{sec:tech}
 Um die Skalierbarkeit und Verfügbarkeit der via OpenShift angebotenen Anwendungen zu gewährleisten sind bei der Implementierung von OpenShift selbst einige Probleme zu lösen: Die Plattform selbst muss leicht skalier- und erweiterbar sein und sich verteilt auch in weit entfernten Rechenzentren betreiben lassen um nicht selbst zum Flaschenhals für die Anwendungsperformance zu werden.
 
